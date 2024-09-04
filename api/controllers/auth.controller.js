@@ -35,7 +35,7 @@ export const signin = async (req, res, next) => {
     } catch(err) {
         next(err);
     }
-}
+};
 
 export const google = async (req, res, next) => {
     try {
@@ -60,4 +60,4 @@ export const google = async (req, res, next) => {
     } catch (error) {
         next(error)
     }
-}
+};
